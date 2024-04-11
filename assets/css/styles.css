@@ -25,10 +25,10 @@ body main {
 }
 body main:hover section:nth-child(2) {
   transform: translateY(-50%);
-  transition: 1s;
+  transition: 1s ease;
 }
 body main:hover img {
-  filter: grayscale(50%);
+  filter: blur(3px);
   transform: scale(1.2);
 }
 body main:hover p {
@@ -43,13 +43,13 @@ body main figure img {
   display: block;
   width: 100%;
   height: 50%;
-  transition: transform 0, 5, ease;
   margin-bottom: 10%;
 }
 body main section {
   width: 90%;
   text-align: left;
   margin-left: 5%;
+  transition: 1s ease;
 }
 body main section h1 {
   font-weight: bold;

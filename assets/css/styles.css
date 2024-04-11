@@ -12,17 +12,18 @@ body {
   width: 100%;
   height: 100%;
   justify-content: center;
+  background-color: #dfe6e9;
 }
 body main {
   width: 25%;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(90deg, rgb(184, 115, 94) 0%, rgba(42, 77, 115, 0.9484244381) 91%);
+  background: linear-gradient(45deg, #ff6b6b, #8e44ad);
   color: white;
   font-family: "Oswald", sans-serif;
   box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 }
-body main:hover section {
+body main:hover section:nth-child(2) {
   transform: translateY(-50%);
   transition: 1s;
 }
